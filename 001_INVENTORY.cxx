@@ -16,7 +16,7 @@ int itemQty[] = {5,4,15,1};
 
 
 // functions for inventory
-int showinventory();
+int Showinventory();
 int showStats();
 int inventoryTask();
 int showDesc();
@@ -31,7 +31,7 @@ int main()
 }
 
 
-int showInventory()
+int ShowInventory()
 {
     system("cls");
     curInventory = 0;
